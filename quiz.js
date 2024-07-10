@@ -8,6 +8,7 @@ function checkAnswer(){
     }else{
         feedback.textContent = "That's incorrect. Try again!";
     }
+    
 }
 let submit = document.getElementById("submit-answer");
 submit.addEventListener('click', checkAnswer)
